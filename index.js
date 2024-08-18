@@ -26,6 +26,11 @@ const services = [
     path: '/api/catalog',
     target: 'http://localhost:8080/', // Replace with your product service URL
   },
+  {
+    id: 'order-service',
+    path: '/api/order',
+    target: 'http://localhost:5503/', // Replace with your product service URL
+  }
 ];
 
 // Create proxy middleware for each service
